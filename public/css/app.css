@@ -1,0 +1,58 @@
+.weather-container {
+    min-height: 100vh;
+    max-width: 1440px;
+    min-width: 360px;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.5s;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+    opacity: 0;
+}
+
+.form-control {
+    border: 0;
+}
+
+.weather-img {
+    width: 40%;
+    margin-top: -40px;
+    margin-bottom: -40px;
+}
+
+.specs-container {
+    text-align: center;
+}
+
+.bg-blue {
+    background-color: #52b5eb;
+}
+
+.font-white {
+    color: #ffffff;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.temp {
+    font-size: 80px;
+}
+
+@media (min-width: 768px) {
+    .specs-container {
+        text-align: left;
+    }
+
+    .weather-img {
+        width: 40%;
+        margin-top: -20px;
+        margin-bottom: -20px;
+    }
+}
